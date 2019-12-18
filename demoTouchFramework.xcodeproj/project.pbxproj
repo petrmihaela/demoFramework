@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		D624B11F23AA2F020053B3B1 /* demoTouchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D624B11D23AA2F020053B3B1 /* demoTouchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D624B15A23AA31930053B3B1 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624B15923AA31930053B3B1 /* Demo.swift */; };
+		D69C3CE823AA6891002CF5B0 /* BravoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C3CE723AA6891002CF5B0 /* BravoViewController.swift */; };
+		D69C3CEA23AA6A24002CF5B0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69C3CE923AA6A24002CF5B0 /* Launch Screen.storyboard */; };
+		D69C3CEC23AA6A42002CF5B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C3CEB23AA6A42002CF5B0 /* AppDelegate.swift */; };
+		D69C3CED23AA707C002CF5B0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69C3CEF23AA707C002CF5B0 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +20,10 @@
 		D624B11D23AA2F020053B3B1 /* demoTouchFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demoTouchFramework.h; sourceTree = "<group>"; };
 		D624B11E23AA2F020053B3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D624B15923AA31930053B3B1 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		D69C3CE723AA6891002CF5B0 /* BravoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravoViewController.swift; sourceTree = "<group>"; };
+		D69C3CE923AA6A24002CF5B0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D69C3CEB23AA6A42002CF5B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D69C3CEE23AA707C002CF5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +56,13 @@
 		D624B11C23AA2F020053B3B1 /* demoTouchFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D69C3CEF23AA707C002CF5B0 /* Storyboard.storyboard */,
 				D624B11D23AA2F020053B3B1 /* demoTouchFramework.h */,
 				D624B11E23AA2F020053B3B1 /* Info.plist */,
 				D624B15923AA31930053B3B1 /* Demo.swift */,
+				D69C3CE723AA6891002CF5B0 /* BravoViewController.swift */,
+				D69C3CE923AA6A24002CF5B0 /* Launch Screen.storyboard */,
+				D69C3CEB23AA6A42002CF5B0 /* AppDelegate.swift */,
 			);
 			path = demoTouchFramework;
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69C3CEA23AA6A24002CF5B0 /* Launch Screen.storyboard in Resources */,
+				D69C3CED23AA707C002CF5B0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,11 +149,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69C3CEC23AA6A42002CF5B0 /* AppDelegate.swift in Sources */,
 				D624B15A23AA31930053B3B1 /* Demo.swift in Sources */,
+				D69C3CE823AA6891002CF5B0 /* BravoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D69C3CEF23AA707C002CF5B0 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69C3CEE23AA707C002CF5B0 /* Base */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D624B12023AA2F020053B3B1 /* Debug */ = {

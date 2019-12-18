@@ -182,6 +182,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -198,6 +199,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="demoTouchFramework",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class UIApplication;
+@class UISceneSession;
+@class UISceneConnectionOptions;
+@class UISceneConfiguration;
+
+SWIFT_CLASS("_TtC18demoTouchFramework11AppDelegate")
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
+- (UISceneConfiguration * _Nonnull)application:(UIApplication * _Nonnull)application configurationForConnectingSceneSession:(UISceneSession * _Nonnull)connectingSceneSession options:(UISceneConnectionOptions * _Nonnull)options SWIFT_WARN_UNUSED_RESULT;
+- (void)application:(UIApplication * _Nonnull)application didDiscardSceneSessions:(NSSet<UISceneSession *> * _Nonnull)sceneSessions;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UILabel;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC18demoTouchFramework19BravoViewController")
+@interface BravoViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified bravoTF;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified bravoLabel;
+- (void)viewDidLoad;
+- (IBAction)bravoPressed:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC18demoTouchFramework4Demo")
