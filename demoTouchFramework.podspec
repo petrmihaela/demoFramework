@@ -8,8 +8,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :text => ""}
   spec.author = { "Petrisor Mihaela" => "petr.mihaela97@gmail.com" }
   spec.ios.deployment_target = '10.0'
-spec.vendored_frameworks = "demoTouchFramework.framework"
-
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -18,6 +16,7 @@ spec.vendored_frameworks = "demoTouchFramework.framework"
   #
 
   spec.source       = {  :git => 'https://github.com/petrmihaela/demoFramework.git' }
+spec.ios.vendored_frameworks = "demoTouchFramework.framework"
 
 
   spec.exclude_files = "Classes/Exclude"
