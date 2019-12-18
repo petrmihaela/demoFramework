@@ -10,19 +10,27 @@
 		</data>
 		<key>Base.lproj/Storyboard.storyboardc/Info.plist</key>
 		<data>
-		jLAle+w4pyW0Si1xfyXoneZ7jhI=
+		NnWISfmSsDZx9pRRV92xzOLCjBI=
 		</data>
 		<key>Base.lproj/Storyboard.storyboardc/Kgg-0Y-JDz-view-c6W-GW-DNH.nib</key>
 		<data>
-		rKIPPcUNxZbQnIAg1pldmzlsHYs=
+		p6qq+OPrOqQS2i7AZbIP4eOuDKE=
 		</data>
 		<key>Base.lproj/Storyboard.storyboardc/MainStoryboard.nib</key>
 		<data>
-		I6lp/Y+TLA/3lUW8QwiR54B7drQ=
+		T9yzS/M9Xg1VT/DrZn6lp/x9ygg=
+		</data>
+		<key>Base.lproj/Storyboard.storyboardc/UITableViewController-pns-W0-1hH.nib</key>
+		<data>
+		h0U0GBFPyyp+22WzszHqPAO4AXE=
+		</data>
+		<key>Base.lproj/Storyboard.storyboardc/pns-W0-1hH-view-ug9-fd-0bd.nib</key>
+		<data>
+		hG2n/8K1rE3hAAGIEIi7POn0ytc=
 		</data>
 		<key>Headers/demoTouchFramework-Swift.h</key>
 		<data>
-		7W1Ae6Rm/5p8ShQkP8Dz66wp918=
+		v9xzutmYCj66MzdssrhRBSdKnrM=
 		</data>
 		<key>Headers/demoTouchFramework.h</key>
 		<data>
@@ -50,7 +58,7 @@
 		</data>
 		<key>Modules/demoTouchFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JnoToRWEReXwEfRpzNXyGWc8/u0=
+		04FxXGmUuK83ET3ZAJzVYvrpTao=
 		</data>
 		<key>Modules/demoTouchFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,7 +66,7 @@
 		</data>
 		<key>Modules/demoTouchFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		JnoToRWEReXwEfRpzNXyGWc8/u0=
+		04FxXGmUuK83ET3ZAJzVYvrpTao=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,28 +79,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EIBoAPCqB5+Umc0X2HelWGsw50zoWuRXoLRSxfbGaeU=
+			a7PQJhpnwBdvD0jdpainr8yJPGRFwaNKUM5BPMyLMDg=
 			</data>
 		</dict>
 		<key>Base.lproj/Storyboard.storyboardc/Kgg-0Y-JDz-view-c6W-GW-DNH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jpf7fNMyrlYHDt5/a3zsl7DgODd9YXhkmEAeCgHXa2M=
+			bR8BVW3Iar7sN7jdZPx9Oikt75jP30bHxkLlJmd5G9U=
 			</data>
 		</dict>
 		<key>Base.lproj/Storyboard.storyboardc/MainStoryboard.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJTPRN1R9X01nY8lU794CM2KFe8KQkSwx4g0oQwYu8A=
+			e01glhuuprwk7PV7Q+YnTr5oiFudkwjjz7kWBMYCE4U=
+			</data>
+		</dict>
+		<key>Base.lproj/Storyboard.storyboardc/UITableViewController-pns-W0-1hH.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f/YK5l4GqKT7a/cCxijRVxiQS2WgKGm9368ZrgOdRDI=
+			</data>
+		</dict>
+		<key>Base.lproj/Storyboard.storyboardc/pns-W0-1hH-view-ug9-fd-0bd.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vb9mFl4Z9+UOUbCXdGR2AuTPpJ9qtaX8FJ8uxcWcubs=
 			</data>
 		</dict>
 		<key>Headers/demoTouchFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YBsHp//0gIjUbMkP6gEMXll9/IaZT8G7dRRviFWlo4Y=
+			5EsRDm35twpSTyhuBz7HFox+eAXJD+xJxukmNk05E1s=
 			</data>
 		</dict>
 		<key>Headers/demoTouchFramework.h</key>
@@ -134,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/5vCLxEX2bZC9fp3XsaN6ktbb0F+PURwbVoDTFho9Y=
+			tm70sgJkRlTJJ9kYqxml3qc2SMB8lZv198aZy8RIKWY=
 			</data>
 		</dict>
 		<key>Modules/demoTouchFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -148,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/5vCLxEX2bZC9fp3XsaN6ktbb0F+PURwbVoDTFho9Y=
+			tm70sgJkRlTJJ9kYqxml3qc2SMB8lZv198aZy8RIKWY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
